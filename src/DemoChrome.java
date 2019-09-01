@@ -29,6 +29,7 @@ public class DemoChrome {
      driver.findElement(By.cssSelector("a[title*='Watch']")).click();
      driver.findElement(By.cssSelector("input#srchword")).sendKeys("rain");
      driver.findElement(By.xpath("//input[contains(@title,'Sea')]")).click();
+     System.out.println("success");
      
      //driver.navigate().back();
      //driver.navigate().forward();
